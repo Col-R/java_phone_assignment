@@ -12,10 +12,4 @@ public abstract class Phone {
     //abstract method. This method will be implemented by the subclasses
     public abstract void displayInfo();
     //todo: Getters and setters
-    public String ring(){
-        return (this.ringTone);
-    }
-    public String unlock(){
-        return (this.unlock());
-    }
 }
