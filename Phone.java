@@ -13,9 +13,9 @@ public abstract class Phone {
     public abstract void displayInfo();
     //todo: Getters and setters
     public String ring(){
-        return ("Y");
+        return (this.ringTone);
     }
     public String unlock(){
-        return (null);
+        return (this.unlock());
     }
 }
