@@ -4,11 +4,11 @@ public class Galaxy extends Phone implements Ringable {
     }
     @Override
     public String ring(){
-        // TODO
+        return (null);
     }
     @Override
     public String unlock(){
-        // TODO
+        return ("Unlocking via finger print");
     }
     @Override
     public void displayInfo(){
