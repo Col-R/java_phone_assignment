@@ -4,7 +4,7 @@ public class IPhone extends Phone implements Ringable {
     }
     @Override
     public String ring(){
-        return (null);
+        return (this.getRingTone());
     }
     @Override
     public String unlock(){
