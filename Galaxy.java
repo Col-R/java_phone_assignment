@@ -4,7 +4,7 @@ public class Galaxy extends Phone implements Ringable {
     }
     @Override
     public String ring(){
-        return (null);
+        return this.getRingTone();
     }
     @Override
     public String unlock(){
@@ -12,7 +12,10 @@ public class Galaxy extends Phone implements Ringable {
     }
     @Override
     public void displayInfo(){
-        
+        System.out.println("Version: "+ this.getVersionNumber());
+        System.out.println("Battery: "+ this.getBatteryPercentage());
+        System.out.println("Carrier: "+ this.getCarrier());
+        System.out.println("Ring tone: "+ this.getRingTone());
     }
 }
 
